@@ -311,6 +311,6 @@ class Testview(APIView):
         # raise Exception('报错了！！！！')
         raise APIException('APIException')
         # raise ValidationError("报错了!!!")
-        # 测试pycharm连接git推送到远程仓库上....
+        # 测试pycharm连接git推送到远程仓库....
 
         return Response('testing...')
