@@ -311,5 +311,6 @@ class Testview(APIView):
         # raise Exception('报错了！！！！')
         raise APIException('APIException')
         # raise ValidationError("报错了!!!")
+        # 测试pycharm连接git
 
         return Response('testing...')
